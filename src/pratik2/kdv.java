@@ -6,15 +6,19 @@ import java.util.Scanner;
 public class kdv {
     public static void main(String[] args) {
         Scanner inp = new Scanner(System.in);
+        double kdvsiz, kdvli, kdvTutari;
+
 
         System.out.print("Lütfen Tutarı giriniz: ");
-        double kdvsiz = inp.nextDouble();
+        kdvsiz = inp.nextDouble();
 
-        System.out.println("KDV'li Tutar: " +kdvsiz +" TL");
-        double kdvli = (kdvsiz*1.18);
+        System.out.println("KDV'siz Tutar: " +kdvsiz +" TL");
 
-        System.out.println("KDV'siz Tutar: " +kdvli +" TL");
-        System.out.println("KDV Tutarı:%18'dir.");
+        kdvli = (kdvsiz*1.18);
+        kdvTutari = kdvsiz*0.18;
+        System.out.println("KDV Tutarı: " +kdvTutari +" TL");
+        System.out.println("KDV'li Tutar: " +kdvli +" TL");
+        System.out.println("KDV %18'dir.");
 
 
 
