@@ -1,6 +1,6 @@
 
 
-package pratik2;
+package Pratik;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class hipotenus {
         b = girdi.nextDouble();
 
         c=Math.sqrt((a*a)+(b*b));
-        System.out.println("Hipotenüs: " +c);
+        System.out.println("Hipotenüs: " +c );
 
 
     }

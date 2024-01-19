@@ -1,4 +1,4 @@
-package pratik2;
+package Pratik;
 
 import java.util.Scanner;
 
