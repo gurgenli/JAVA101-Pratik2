@@ -17,6 +17,12 @@ public class transkript {
         System.out.print("Müzik notunuzu giriniz: ");
         muzik = input.nextInt();
 
+        if (mat>100) {mat=0;}
+        if (fizik>100) {fizik=0;}
+        if (kimya>100) {kimya=0;}
+        if (turkce>100) {turkce=0;}
+        if (muzik>100) {muzik=0;}
+
         double ort = ((mat+fizik+turkce+kimya+muzik)/5);
 
         if (ort > 55){
