@@ -24,13 +24,13 @@ public class chine {
             System.out.println("Kaplan");
         } else if (year % 12 == 7) {
             System.out.println("Tavşan");
-        } else if (year % 12 == 9) {
+        } else if (year % 12 == 8) {
             System.out.println("Ejderha");
-        } else if (year % 12 == 10) {
+        } else if (year % 12 == 9) {
             System.out.println("Yılan");
-        } else if (year % 12 == 11) {
+        } else if (year % 12 == 10) {
             System.out.println("At");
-        } else if (year % 12 == 12) {
+        } else if (year % 12 == 11) {
             System.out.println("Koyun");
         }
 
