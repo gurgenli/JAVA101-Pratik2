@@ -14,5 +14,6 @@ public class uslusayi {
             total *= c;
         }
         System.out.println("Total= " +total);
+
     }
 }
