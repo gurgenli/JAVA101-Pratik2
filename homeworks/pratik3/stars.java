@@ -7,11 +7,11 @@ public class stars {
         System.out.println("Bir Sayı Giriniz= ");
         n = input.nextInt();
 
-        for(int i=1; i<=n; i++){
-            for(int k=1; k<=(n-i); k++){
-            System.out.print(" ");
+        for (int i=1; i<=n; i++){
+            for(int k=1; k<=(n-i); k++ ) {
+                System.out.print(" ");
             }
-            for (int j=1; j<=((2*i)-1); j++){
+            for(int j=1; j<=((2*i)-1); j++){
                 System.out.print("*");
             }
             System.out.println();
