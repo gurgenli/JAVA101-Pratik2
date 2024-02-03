@@ -8,14 +8,19 @@ public class numbers {
         int n, xn;
         System.out.print("Kaç sayı gireceksiniz: ");
         n = input.nextInt();
-        while (n>0){
+        xn=1;
+
+        while (n>=1){
             System.out.print("Sayı giriniz: ");
             xn = input.nextInt();
-            --n;
+            n--;
+        }
+        for(int i=1; i<=xn; i++){
+            System.out.println("En küçük sayı:" +xn);
+            break;
         }
 
-
-
-
     }
+
+
 }
