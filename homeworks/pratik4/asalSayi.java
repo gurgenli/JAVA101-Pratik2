@@ -1,6 +1,6 @@
 package pratik4;
 import java.util.Scanner;
-public class study {
+public class asalSayi {
 
     static boolean us(int a){
         for(int i=2; i<a; i++){
